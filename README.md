@@ -1,3 +1,9 @@
+# Information
+
+This is a repository which contains a proof-of-concept implementation for the published paper called "MAXPoWR: Memory Attestation and Export in Process-based Trusted Execution Environments" published 2024 in the 23rd IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom-2024).
+
+This project is not maintained. Note that this repository presents a prototype implementation and is not to be used in production.
+
 # Stack Snapshot Exporter for Intel SGX
 
 
