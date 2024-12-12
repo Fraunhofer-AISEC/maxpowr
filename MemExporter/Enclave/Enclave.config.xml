@@ -1,0 +1,14 @@
+<EnclaveConfiguration>
+  <ProdID>0</ProdID>
+  <ISVSVN>0</ISVSVN>
+  <StackMinSize>0x40000</StackMinSize>
+  <StackMaxSize>0x40000</StackMaxSize>
+  <!-- The following two properties must reflect the total amount of threads. 
+    In our case, this is the total number of watchers + 1 (worker thread) -->
+  <TCSNum>4</TCSNum>
+  <TCSMinPool>4</TCSMinPool>
+  <TCSPolicy>1</TCSPolicy>
+  <DisableDebug>1</DisableDebug>
+  <MiscSelect>0</MiscSelect>
+  <MiscMask>0xFFFFFFFF</MiscMask>
+</EnclaveConfiguration>

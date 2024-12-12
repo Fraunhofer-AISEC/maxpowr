@@ -1,0 +1,33 @@
+enclave {
+
+    from "sgx_tstdc.edl" import sgx_thread_wait_untrusted_event_ocall, sgx_thread_set_untrusted_event_ocall, 
+        sgx_thread_setwait_untrusted_events_ocall, sgx_thread_set_multiple_untrusted_events_ocall;
+
+    #define RSA_PAYLOAD_SIZE 384
+    #define AES_GCM_MAC_SIZE 16
+    #define AES_GCM_IV_SIZE 12
+    #define SHA256_HASH_SIZE 32
+
+    trusted {
+        public void initialize_mutex();
+        public void destroy_mutex();
+        public void set_new_worker_challenge(uint32_t pow_challenge);
+        public void trigger_worker_task();
+        public void initialize_capture(short log_level, uint32_t watchers);
+        public bool capture_stackshot(uint32_t thread_num, uint32_t pow_challenge);
+        public void end_capture();
+    };
+
+    untrusted {
+        void ocall_increment_count();
+        void ocall_reset_count();
+        void ocall_print_string([in, string] const char *str);
+        void ocall_print_string_no_endl([in, string] const char *str);
+        
+        void ocall_write_stackshot([in, count=snap_len] unsigned char *d, uint32_t snap_len);
+        void ocall_write_mac_iv([in, count=AES_GCM_MAC_SIZE] unsigned char *m, [in, count=AES_GCM_IV_SIZE] unsigned char *i);
+        void ocall_write_watcher_metadata(uint32_t c, uint32_t h, bool append);
+        void ocall_write_worker_metadata(uint32_t c, uint32_t p);
+        void ocall_write_enc_sym_key([in, count=RSA_PAYLOAD_SIZE] unsigned char *k);
+    };
+};
