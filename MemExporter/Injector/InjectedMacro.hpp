@@ -1,5 +1,14 @@
-// Halting logic to be called after most code lines of the Worker thread.
-// This will stall execution in case the time for PoW has come.
+/*
+ *  Copyright (C) 2024 Fraunhofer AISEC
+ *  Authors: Andrei-Cosmin Aprodu <andrei-cosmin.aprodu@aisec.fraunhofer.de>
+ *
+ *  InjectedMacro.hpp
+ *
+ *  Implements halting logic to be called after most code lines of the Worker thread.
+ *  This will stall execution in case the time for PoW has come.
+ *
+ *  All Rights Reserved.
+ */
 
 #define HALT_CONDITION(should_halt, challenge, solution, mutex, mutex_cond) do { \
     if (*should_halt) { \

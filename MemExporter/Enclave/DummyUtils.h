@@ -1,3 +1,14 @@
+/*
+ *  Copyright (C) 2024 Fraunhofer AISEC
+ *  Authors: Andrei-Cosmin Aprodu <andrei-cosmin.aprodu@aisec.fraunhofer.de>
+ *
+ *  DummyUtils.h
+ *
+ *  Creates dummy data for demonstration.
+ *
+ *  All Rights Reserved.
+ */
+
 #pragma once
 
 

@@ -1,3 +1,14 @@
+/*
+ *  Copyright (C) 2024 Fraunhofer AISEC
+ *  Authors: Andrei-Cosmin Aprodu <andrei-cosmin.aprodu@aisec.fraunhofer.de>
+ *
+ *  Decryptor.h
+ *
+ *  Provides cryptographic functionalities.
+ *
+ *  All Rights Reserved.
+ */
+
 #pragma once
 
 #include <string>

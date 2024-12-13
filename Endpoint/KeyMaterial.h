@@ -1,3 +1,15 @@
+/*
+ *  Copyright (C) 2024 Fraunhofer AISEC
+ *  Authors: Andrei-Cosmin Aprodu <andrei-cosmin.aprodu@aisec.fraunhofer.de>
+ *
+ *  KeyMaterial.h
+ *
+ *  Creates sample key material for demonstration purposes.
+ *
+ *  All Rights Reserved.
+ */
+
+
 #pragma once
 
 

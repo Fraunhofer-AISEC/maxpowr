@@ -1,3 +1,14 @@
+/*
+ *  Copyright (C) 2024 Fraunhofer AISEC
+ *  Authors: Andrei-Cosmin Aprodu <andrei-cosmin.aprodu@aisec.fraunhofer.de>
+ *
+ *  Endpoint.cpp
+ *
+ *  Provides functionality to orchestrate resource exhaustion.
+ *
+ *  All Rights Reserved.
+ */
+
 #include <iostream>
 #include <string>
 #include <boost/program_options.hpp>

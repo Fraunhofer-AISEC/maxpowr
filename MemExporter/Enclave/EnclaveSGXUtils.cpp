@@ -1,3 +1,14 @@
+/*
+ *  Copyright (C) 2024 Fraunhofer AISEC
+ *  Authors: Andrei-Cosmin Aprodu <andrei-cosmin.aprodu@aisec.fraunhofer.de>
+ *
+ *  EnclaveSGXUtils.cpp
+ *
+ *  Creates main enclave functionality.
+ *
+ *  All Rights Reserved.
+ */
+
 #include <cstring>
 
 #include "EnclaveSGXUtils.h"

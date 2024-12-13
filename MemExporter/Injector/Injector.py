@@ -1,3 +1,14 @@
+ #
+ #  Copyright (C) 2024 Fraunhofer AISEC
+ #  Authors: Andrei-Cosmin Aprodu <andrei-cosmin.aprodu@aisec.fraunhofer.de>
+ #
+ #  Injector.py
+ #
+ #  Applies the macro of InjectedMacro.hpp into source code.
+ #
+ #  All Rights Reserved.
+ #
+
 import sys
 import os
 import re

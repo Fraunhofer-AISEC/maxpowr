@@ -1,3 +1,15 @@
+/*
+ *  Copyright (C) 2024 Fraunhofer AISEC
+ *  Authors: Andrei-Cosmin Aprodu <andrei-cosmin.aprodu@aisec.fraunhofer.de>
+ *
+ *  StackCrawler.h
+ *
+ *  Creates routine to move along stack of process.
+ *
+ *  All Rights Reserved.
+ */
+
+
 #pragma once
 
 

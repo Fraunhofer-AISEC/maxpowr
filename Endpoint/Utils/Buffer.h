@@ -1,3 +1,14 @@
+/*
+ *  Copyright (C) 2024 Fraunhofer AISEC
+ *  Authors: Andrei-Cosmin Aprodu <andrei-cosmin.aprodu@aisec.fraunhofer.de>
+ *
+ *  Buffer.h
+ *
+ *  Implements buffer operations.
+ *
+ *  All Rights Reserved.
+ */
+
 #pragma once
 
 

@@ -1,3 +1,15 @@
+/*
+ *  Copyright (C) 2024 Fraunhofer AISEC
+ *  Authors: Andrei-Cosmin Aprodu <andrei-cosmin.aprodu@aisec.fraunhofer.de>
+ *
+ *  ProgressUtils.cpp
+ *
+ *  Provides measurement functionalities for progress analysis.
+ *
+ *  All Rights Reserved.
+ */
+
+
 #include <string>
 #include <fstream>
 

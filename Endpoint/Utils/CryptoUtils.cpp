@@ -1,3 +1,14 @@
+/*
+ *  Copyright (C) 2024 Fraunhofer AISEC
+ *  Authors: Andrei-Cosmin Aprodu <andrei-cosmin.aprodu@aisec.fraunhofer.de>
+ *
+ *  CryptoUtils.cpp
+ *
+ *  Provides access to cryptographic functionalities inspired by Intel SGX SDK.
+ *
+ *  All Rights Reserved.
+ */
+
 #include <openssl/evp.h>
 #include <openssl/rsa.h>
 #include <openssl/sha.h>

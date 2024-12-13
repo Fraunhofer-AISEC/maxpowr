@@ -1,3 +1,14 @@
+/*
+ *  Copyright (C) 2024 Fraunhofer AISEC
+ *  Authors: Andrei-Cosmin Aprodu <andrei-cosmin.aprodu@aisec.fraunhofer.de>
+ *
+ *  Decryptor.cpp
+ *
+ *  Provides cryptographic functionalities.
+ *
+ *  All Rights Reserved.
+ */
+
 #include <iostream>
 #include <fstream>
 #include <utility>
